@@ -1,0 +1,106 @@
+body {
+  height: 100vh;
+}
+.cursor {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.rect {
+  border-radius: 0;
+  border-width: 1px;
+  border-style: solid;
+}
+.circle {
+  border-radius: 50%;
+  border-width: 1px;
+  border-style: solid;
+}
+.danger {
+  border-color: #c83025;
+  color: #c83025;
+}
+.success {
+  border-color: #46a54e;
+  color: #46a54e;
+}
+.secondary {
+  border-color: #999;
+  color: #999;
+}
+.primary {
+  border-color: #0099e6;
+  color: #0099e6;
+}
+.warning {
+  border-color: #f89406;
+  color: #f89406;
+}
+.small {
+  height: 30px;
+  width: 30px;
+}
+.normal {
+  height: 40px;
+  width: 40px;
+}
+.large {
+  height: 60px;
+  width: 60px;
+}
+.pulse {
+  animation: pulse 1s ease-out;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.vibrate-h {
+  animation: vibrate-h 1s ease-out;
+  animation-iteration-count: infinite;
+}
+@keyframes vibrate-h {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translate3d(3px, 0, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(-3px, 0, 0);
+  }
+}
+.vibrate-v {
+  animation: vibrate-v 1s ease-out;
+  animation-iteration-count: infinite;
+}
+@keyframes vibrate-v {
+  0%,
+  20%,
+  40%,
+  60%,
+  80%,
+  100% {
+    transform: translate3d(0, 3px, 0);
+  }
+  10%,
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: translate3d(0, -3px, 0);
+  }
+}
