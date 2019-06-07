@@ -34,6 +34,13 @@ body {
 .warning {
   border-color: #f89406;
   color: #f89406;
+  background-color: #f89406; 
+}
+.outline{
+    background-color: transparent !important;
+}
+.none{
+    cursor: none;
 }
 .small {
   height: 30px;
