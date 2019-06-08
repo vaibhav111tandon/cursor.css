@@ -1,4 +1,7 @@
 # cursor.css
+
+[![Join the chat at https://gitter.im/cursor-css/community](https://badges.gitter.im/cursor-css/community.svg)](https://gitter.im/cursor-css/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ![GitHub](https://img.shields.io/github/license/vaibhav111tandon/cursor.css.svg)
 
 #### You can install the file
